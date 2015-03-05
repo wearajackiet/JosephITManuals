@@ -1,0 +1,146 @@
+AFWG WEBSITE GUIDE 
+
+MAKING EDITS TO THE WEBSITE 
+
+Logging In:  
+
+Go to www.arabfamilies.org and click on Login to AFWG at the top right corner.
+
+username: 
+password: 
+
+User “ ” can edit all site content, add pages, upload files and edit the site menu 
+Once you login, an admin menu shows on the top of the site. 
+“View” and “Edit” links show at the top of every page. 
+
+Editing
+
+Go to the page you want to edit and click the “Edit” button at the top. 
+
+A text editor will appear on the page. 
+
+(When copying and pasting, first do so into Notepad to remove formatting.) 
+
+IMPORTANT! Be very careful when editing any page that uses a toggle function to make text appear or disappear. 
+If you must edit this content, and a developer is unavailable, click the “HTML” button at the top right of the text editor. 
+This will display the code of the page, and you can go in and find the text you want to edit. (Just be careful not to edit or delete any code). 
+
+Headers 
+
+You can use Headers to make text bigger.  
+ 
+Select the desired text and click the drop-down menu that says “Format” and choose 
+Header 1, Header 2, or Header 3. 
+
+ 
+
+Links 
+
+
+Click the button that looks like the Earth with a little chain-link at the bottom. 
+
+Insert the URL information, then save the link. You can edit the text afterwards. 
+
+ 
+
+Images 
+
+You can add images directly to a page - click the Add Media button to the right.  
+
+In the pop-up menu, click Browse to select an image to upload from your computer. 
+
+You can select the Embed Image/Video tab to add a Youtube video or Browse Library to add existing assets. 
+
+ 
+
+Adding a Page 
+
+In the black menu at the top of the screen, click Content then Add Content. Or, in the gray bar below, click Add Content. 
+
+Usually you will select a Basic Page as the new item. 
+
+You can also create new types of items called ScholarProfiles for Core Group members. 
+
+
+
+The other two important file types are AFWGTaggableFile and AFWGTaggableTypePage. 
+
+
+Use AFWGTaggableFile for documents such as .doc, .pdf files, etc, as they are not normally available to upload. You can then create a link to them from inside a basic page.  
+
+Administrators: The pages containing Bibliographies and Volumes (found under Publications) contain basic pages that have links to AFWGTaggableFile items - docx and pdf files. 
+
+ 
+
+Use AFWGTaggableTypePage to create items that can be tagged. Once you use a tag that is recognized, it will automatically be added to a relevant list. 
+
+For example, Research Projects are tagged as "AFWG Research Projects 2000" or "AFWG Research Projects 2011" 
+and if you use either tag, such items will appear on the list of Research Projects, under "Research Projects 2000-2010" or "Research Projects 2011-". 
+and those will show up automatically under Core Group and Research Projects. 
+
+
+Similarly, the list of Conference agendas will automatically list all items that are of the type AFWGTaggableTypePage that have the tag 2007CairoConferenceAgenda. 
+
+The list of Policy Briefs will automatically list all items that are of the type AFWGTaggableFile with the tag policybrief.  
+
+The list of Publications will automatically list all items that are of the type Publication Page 
+
+The list of Conference agendas will automatically list all items that are of the type AFWGTaggableTypePage that have the tag Syllabus. 
+
+
+Administrators: you can modify or add automatic lists from the top menu by clicking Structure then Simple Views. 
+
+
+ 
+
+Uploading Files 
+
+Get to the Find Content page. 
+
+Then click on the Media tab at the top right, and then Add File. 
+
+Then select files from your computer to upload to the site. 
+
+Before clicking Add File, you should see a list of media. 
+
+Simply move your mouse over an item to see its URL at the bottom left of your browser. 
+You can copy these URLs for linking purposes. 
+
+ 
+
+Menu  
+
+Only administrators can edit menus. This is because changing the formatting is risky and can have persistent consequences. The Main Menu is the most important one. 
+
+Log in as "". 
+
+
+While ThemeBuilder (a module we have) is installed: 
+
+1. Move your mouse over any menu. 
+2. A gear-shaped icon will appear to the left of that item. 
+3. Move your mouse over the gear icon and click Edit. 
+Then change titles and nesting for each menu item as desired. 
+
+ 
+
+AFWG CORE GROUP ACCOUNTS 
+ 
+1. Go to Login to AFWG at the top right corner.. 
+2. If you are already a member, enter your username/email and password. Otherwise, click “Not a Member” and enter Name and Email Address 
+3. Check your email and copy your password, or click the verification link 
+4. Click Login to AFWG again and use your password to login 
+5. (Optional) Click “Edit” and to change your password 
+
+  
+
+
+RECAP: DRUPALGARDENS LOGIN INFORMATION 
+
+Admin Account: 
+User:  
+PW:
+
+Editor/Blogger Account: 
+User:  
+PW:

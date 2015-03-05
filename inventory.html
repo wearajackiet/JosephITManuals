@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script>
+		var show_computer = true;
+		var show_printer = true;
+		var show_monitor = true;
+		var show_deprecated = true;
+		
+		var show_lab = true;
+		var show_office = true;
+		var show_home = true;
+		
+		$(document).ready(function(){
+		  $("#reset").click(function(){
+			$("*").show();
+		  });
+		  $("#computer_toggle").click(function(){
+		  	if(show_computer){
+				$("#computers").hide();
+				$(".computer").hide();
+			}
+			else{
+				$("#computers").show();
+				$(".computer").show();
+			}
+			show_computer=!show_computer;
+		  });
+		  $("#printer_toggle").click(function(){
+		  	if(show_printer){
+				$("#printers").hide();
+				$(".printer").hide();
+			}
+			else{
+				$("#computers").show();
+				$(".computer").show();
+			}
+			show_printer=!show_printer;
+		  });
+		  $("#monitor_toggle").click(function(){
+		  	if(show_monitor){
+				$("#monitors").hide();
+				$(".monitor").hide();
+			}
+			else{
+				$("#monitors").show();
+				$(".monitor").show();
+			}
+			show_monitor=!show_monitor;
+		  });
+		  $("#deprecated_toggle").click(function(){
+		  	if(show_deprecated){
+				$("#deprecateds").hide();
+				$(".deprecated").hide();
+			}
+			else{
+				$("#deprecateds").show();
+				$(".deprecated").show();
+			}
+			show_deprecated=!show_deprecated;
+		  });
+		  
+		  $("#lab_toggle").click(function(){
+		  	if(show_lab){
+				$("#lab").hide();
+				$(".lab").hide();
+			}
+			else{
+				$("#lab").show();
+				$(".lab").show();
+			}
+			show_lab=!show_lab;
+		  });
+		  $("#office_toggle").click(function(){
+		  	if(show_office){
+				$("#office").hide();
+				$(".office").hide();
+			}
+			else{
+				$("#office").show();
+				$(".office").show();
+			}
+			show_office=!show_office;
+		  });
+		  $("#home_toggle").click(function(){
+		  	if(show_home){
+				$("#home").hide();
+				$(".home").hide();
+			}
+			else{
+				$("#home").show();
+				$(".home").show();
+			}
+			show_home=!show_home;
+		  });
+		});
+	</script>
+</head>
+<body>
+Use buttons for easy filtering. Buttons toggle hide/display. Press reset to reset.
+<button id="reset" title="Show all">Reset</button>
+<h3>Device Type<h3>
+<button id="computer_toggle">Computers</button>
+<button id="printer_toggle">Printers</button>
+<button id="monitor_toggle">Monitors</button>
+<button id="deprecated_toggle">Deprecated</button>
+<h3>Location<h3>
+<button id="lab_toggle">Lab</button>
+<button id="office_toggle">Office</button>
+<button id="home_toggle">Home</button>
+
+
+<h1>===INVENTORY===</h1>
+<h2>Computers</h2>
+<div id="computers" title="Computers">
+	<ul class="lab" title="Lab">
+		<li><h3>Lab</h3></li>
+		<li>8 computers total</li>
+		<li>
+			<ul>
+				<li>Model: Dell Dimension E520</li>
+				<li>Year: ???</li>
+				<li>DSS: DSS04057 </li>
+				<li>Note: Standing desk</li>
+			</ul>
+		</li>
+		<li>
+			<ul>
+				<li>Model: Dell Optiplex 3010</li>
+				<li>Year: ???</li>
+				<li>DSS: DSS02330 </li>
+				<li>Note: Next to standing desk</li>
+			</ul>
+		</li>
+		<li>
+			<ul>
+				<li>Model: Dell Optiplex 990</li>
+				<li>Year: ???</li>
+				<li>DSS: DSS03718 </li>
+				<li>Note: Middle of row of computers</li>
+			</ul>
+		</li>
+		<li>
+			<ul>
+				<li>Model: Dell Optiplex 3010</li>
+				<li>Year: ???</li>
+				<li>DSS: DSS03520 </li>
+				<li>Note: Next to Microwave and Minifridge</li>
+			</ul>
+		</li>
+		<li>
+			<ul>
+				<li>Model: Dell Optiplex 755</li>
+				<li>Year: ???</li>
+				<li>DSS: DSS03406 </li>
+				<li>Note: In corner next to printers</li>
+			</ul>
+		</li>
+		<li>
+			<ul>
+				<li>Model: Mac</li>
+				<li>Year: ???</li>
+				<li>DSS: DSS03406 </li>
+				<li>Note: Laptop, on Desk</li>
+			</ul>
+		</li>
+		<li>
+			<ul>
+				<li>Model: Mac</li>
+				<li>Year: ???</li>
+				<li>DSS: DSS03406 </li>
+				<li>Note: Laptop, on Desk</li>
+			</ul>
+		</li>
+		<li>
+			<ul>
+				<li>Model: Dell Optiplex 960</li>
+				<li>Year: ???</li>
+				<li>DSS: DSS03406 </li>
+				<li>Note: In corner next to Macs and shelves</li>
+			</ul>
+		</li>
+		<li>DEPRECATED</li>
+		<li>
+			<ul>
+				<li>Model: Dell Optiplex GX260</li>
+				<li>Year: ???</li>
+				<li>DSS: ??? </li>
+				<li>Note: PC Workstation <br>Reason: Too Old<br>Wipe, then Recycle<br>Under the printers</li>
+			</ul>
+		</li>
+	</ul>
+	<ul class="office" title="Office">
+	<li><h3>Lab</h3></li>
+		<li>2 computers total</li>
+		<li>
+			<ul>
+				<li>Model: SOME FANCY Dell</li>
+				<li>Year: ???</li>
+				<li>DSS: DSS???? </li>
+				<li>Note: Main Office Tower</li>
+			</ul>
+		</li>
+		<li>
+			<ul>
+				<li>Model: Latitude</li>
+				<li>Year: ???</li>
+				<li>DSS: DSS???? </li>
+				<li>Note: Small Laptop sometimes used for lectures</li>
+			</ul>
+		</li>
+		<li>DEPRECATED</li>
+		<li>None right now</li>
+	</ul>
+	<ul class="home" title="Home">
+	<li><h3>Lab</h3></li>
+		<li>2 computers total</li>
+		<li>
+			<ul>
+				<li>Model: Fancy new Dell Minitower</li>
+				<li>Year: ???</li>
+				<li>DSS: DSS???? </li>
+				<li>Note: Main Office Tower</li>
+			</ul>
+		</li>
+		<li>
+			<ul>
+				<li>Model: Latitude</li>
+				<li>Year: ???</li>
+				<li>DSS: DSS???? </li>
+				<li>Note: Small Laptop sometimes used for lectures</li>
+			</ul>
+		</li>
+		<li>DEPRECATED</li>
+		<li>
+			<ul>
+				<li>Model: Latitude</li>
+				<li>Year: ???</li>
+				<li>DSS: DSS???? </li>
+				<li>Note: Small Laptop sometimes used for lectures</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+<h2>Printers</h2>
+<div id="printers" title="Printers">
+	<ul class="lab" title="Lab">
+		<li><h3>Lab</h3></li>
+		<li>999 printers total</li>
+		<li>
+			<ul>
+				<li>Model: Dell </li>
+				<li>Year: ???</li>
+				<li>DSS: DSS??? </li>
+				<li>Note: Big Black Copy Printer</li>
+			</ul>
+		</li>
+		<li>
+			<ul>
+				<li>Model: HP LaserJet 600 M601</li>
+				<li>Year: ???</li>
+				<li>DSS: DSS??? </li>
+				<li>Note: Next to standing desk, HP Color Printer</li>
+			</ul>
+		</li>
+
+		<li>DEPRECATED</li>
+		<li>
+			<ul>
+				<li>Model: HP Photosmart 7960</li>
+				<li>Year: ???</li>
+				<li>DSS: DSS??? </li>
+				<li>Note: Obsolete printer in corner of room, next to the HPLJ600</li>
+			</ul>
+		</li>
+	</ul>
+	<ul class="office" title="Office">
+	<li><h3>Lab</h3></li>
+		<li>2 printers total</li>
+		<li>
+			<ul>
+				<li>Model: SOME FANCY Dell</li>
+				<li>Year: ???</li>
+				<li>DSS: DSS???? </li>
+				<li>Note: Big Black Copy Printer</li>
+			</ul>
+		</li>
+		<li>
+			<ul>
+				<li>Model: Lesser Dell</li>
+				<li>Year: ???</li>
+				<li>DSS: DSS???? </li>
+				<li>Note: </li>
+			</ul>
+		</li>
+		<li>DEPRECATED</li>
+		<li>None right now</li>
+	</ul>
+	<ul class="home" title="Home">
+	<li><h3>Lab</h3></li>
+		<li>2 printers total</li>
+		<li>
+			<ul>
+				<li>Model: Fancy new Dell Minitower</li>
+				<li>Year: ???</li>
+				<li>DSS: DSS???? </li>
+				<li>Note: Main Office Tower</li>
+			</ul>
+		</li>
+		<li>
+			<ul>
+				<li>Model: Latitude</li>
+				<li>Year: ???</li>
+				<li>DSS: DSS???? </li>
+				<li>Note: Small Laptop sometimes used for lectures</li>
+			</ul>
+		</li>
+		<li>DEPRECATED</li>
+		<li>
+			<ul>
+				<li>Model: Latitude</li>
+				<li>Year: ???</li>
+				<li>DSS: DSS???? </li>
+				<li>Note: Small Laptop sometimes used for lectures</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+<h2>Software</h2>
+<div id="softwares" title="Software">
+	<ul class="home" title="Home">
+		<li><h3>Home</h3></li>
+		<li>Licensed</li>
+		<li>
+			<ul>
+				<li>Name: Microsoft Windows 7 </li>
+				<li>Year: 2013 </li>
+				<li>Version: 7 </li>
+				<li>Serial/Activation Number: 2345l2l34h5lkj2hl345 </li>
+				<li>Note: Microsoft Windows 7 probably run with bootcamp but I've never played a role in doing that part of it.</li>
+			</ul>
+		</li>
+		<li>
+			<ul>
+				<li>Name: Adobe Creative Suite</li>
+				<li>Year: 2013</li>
+				<li>Version: 6 </li>
+				<li>Serial/Activation Number: 2345l2l34h5lkj2hl345 </li>
+				<li>Note: Adobe Creative Suite for Media Editing</li>
+			</ul>
+		</li>
+		<li>
+			<ul>
+				<li>Name: WordPerfect </li>
+				<li>Year: 2013 </li>
+				<li>Version: x7 </li>
+				<li>Serial/Activation Number: 2345l2l34h5lkj2hl345 </li>
+				<li>Note: Word Perfect</li>
+			</ul>
+		</li>
+		<li>
+			<ul>
+				<li>Name: Microsoft Office 2010 </li>
+				<li>Year: 2013 </li>
+				<li>Version: x7 </li>
+				<li>Serial/Activation Number: 2345l2l34h5lkj2hl345 </li>
+				<li>Note: Word Perfect</li>
+			</ul>
+		</li>
+		
+		
+		<li>UNLICENSED</li>
+		<li>
+			<ul>
+				<li>Name: Dropbox </li>
+				<li>Year: </li>
+				<li>Version: </li>
+				<li>Serial/Activation Number:  </li>
+				<li>Note: </li>
+			</ul>
+		</li>
+	</ul>
+	<ul class="office" title="Office">
+		<li><h3>Lab</h3></li>
+		<li>2 printers total</li>
+				<li>
+			<ul>
+				<li>Name: Adobe Creative Suite 6 </li>
+				<li>Year: 2013</li>
+				<li>Version: 6 </li>
+				<li>Serial/Activation Number: 2345l2l34h5lkj2hl345 </li>
+				<li>Note: Adobe Creative Suite for Media Editing</li>
+			</ul>
+		</li>
+		<li>
+			<ul>
+				<li>Name: Adobe Creative Suite 6 </li>
+				<li>Year: 2013</li>
+				<li>Version: 6 </li>
+				<li>Serial/Activation Number: 2345l2l34h5lkj2hl345 </li>
+				<li>Note: Adobe Creative Suite for Media Editing</li>
+			</ul>
+		</li>
+		<li>DEPRECATED</li>
+		<li>None right now</li>
+	</ul>
+	<ul class="home" title="Home">
+	
+	</ul>
+</div>
+
+
+</body>
+</html>

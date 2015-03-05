@@ -1,0 +1,36 @@
+Step-By-Step Guide to change existing images to a have a transparent background (in Adobe Photoshop).
+	a. Open the file in Paint.
+		1. Take note of the width and height of the photo in pixels (found at the bottom of the window).
+		2. Select the entire image.
+		3. Copy to clipboard.
+	b. Open a new Photoshop file.
+		1. Set the Width and Height to the appropriate heights as given by the Paint document.
+		2. Set the "Background Contents" to "Transparent".
+		3. Press "OK" and paste the image from Paint into the new canvas.
+	c. Select the background and other components of the image you want to be transparent. This can be done in a number of ways.
+		1. Magic Wand **WARNING: may select components of the photo you do NOT want to be transparent**
+			a. Use the "Magic Wand" tool (the fourth option on the toolbar on the left; it may be hidden behind the "Quick Selection Tool", so right click and select).
+			b. Select the background.
+			c. (Optional) To edit your selection, use the "Quick Selection Tool" (right click the "Magic Wand" and choose the other option). For more info, see part 3.
+			d. Press "Delete" to get rid of the background.
+		2. Existing non-white background **WARNING: may select components of the photo you do NOT want to be transparent**
+			a. Choose "Select" > "Color Range"
+			b. Choose the color range you want to make transparent (recommended to use "Highlights").
+			c. Press "OK" and then "Delete" to get rid of the unnecessary colors.
+		3. Quick Selection Tool
+			a. Use the "Quick Selection tool" (the fourth option on the toolbar on the left; it may be hidden behind the "Magic Wand", so right click and select).
+			b. Select the areas you want to delete.
+			c. To change the size of the selection area, adjust the size with the option in the toolbar.
+			d. To increase the selected area, use the brush with the + sign above it.
+			e. To decrease the selected area, use the brush with the - sign above it.
+			f. Once you have adjusted to the correct area, press "Delete" to get rid of the unnecessary colors.
+		4. Keep only specific components
+			a. Highlight the components you want to keep using either the "Marquee Tool" (the second option on the toolbar on the left), "Lasso Tool" (third option), or the "Quick Selection Tool" (fourth option).
+			b. Right click and choose "Layer via Cut".
+			c. If you repeat step b, make sure you are making your selection on "Layer 1". The layer you are on can be viewed in the "Layer" window at the bottom right of your Photoshop screen.
+			d. Once you have transfered the necessary components into new layers, delete "Layer 1".
+			e. (Optional) Merge the new layers by selecting the ones you want to merge, right click, and "Merge Layers".
+			f. Adjust the remaining components as necessary.
+	d. Saving the file
+		1. (Optional) It is good practice to save the photoshop file (.PSD), should changes be necessary in the future.
+		2. Save the image as a .PNG file to preserve the transparent background.

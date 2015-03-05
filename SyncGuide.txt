@@ -1,0 +1,48 @@
+Syncing Guide
+
+Syncback Free with External HD "Gold"
+	Assuming you are starting at home:
+	Start the sync with the most used computer.
+	Even on the first sync, let it go both ways. 
+		Double check anything suspicous with the Professor to avoid duplication and fix things throughout the procedure.
+		Technically, there shouldn't be anything. But by letting it run you can see what's wrong and resolve those conflicts.
+	Do all computers in the location from most used to least used, syncing both ways.
+		Only once each in order, you do the again once you come back from the office.
+	When you move to the other location, the Office, just do the same thing, syncing both ways, from most used to least used.
+		If both office computers are used, make sure to sync again on the most used one. Don't skip it.
+	
+	For n computers, you should never have to sync more than 2n-1 times as a worst case number of syncs for a complete full sync across all computers.
+		So for example, for 3 home computers and 2 office computers you should only sync
+			The 3 at home in order from most used to least used
+			The 2 at the office
+				Potentially, if the least used has files at all, 1 more time to the Office Most used.
+			Then all 3 at home again.
+			3+2+1+3=9 syncs.
+		That's 2n-1 = 2(3+2)-1 = 9 times as a worst case amount of syncs.
+		And if some computers are not used at all, you can only do them once, at the last, to save on time.
+	
+	Common Problems:
+		Make sure the Professor is signed in with her Kerberos. We do not have access to D Data without her signing in.
+		Make sure that you sync both ways unless you are SURE that you want to only mirror in one direction.
+		Make sure you don't confuse right and left, and G and C drives. C is local, G is external.
+		Make sure you check the timestamps. If you sort by timestamp and something doesn't make sense, consult the professor to avoid duplicates.
+		Never delete anything without double checking with the Professor or knowing absolutely surely. Deletion of actual data is the worst case scenario.
+		Make sure to eject the disk before unplugging it. If you accidentally unplug while not ejected, you will have to go through a long diskcheck/scan process that will take a lot of time, not to mention you could possibly mess up the data.
+	
+	Setting up Syncback Free Profiles
+		Go to File > New Profile
+		Given the example "Sync Gold to Local"
+			Put the Title as Sync Gold to Local
+			Choose the Left as G:\D Data
+			Choose the Right as C:\D Data
+		Syncs are a left to right procedure. By using the correct direction it automatically deduces whether it should ask you what to do or simply set the correct option to copy over.
+		
+GoodSync
+	Over the network syncing with Goodsync
+	
+	Unfortunately, this is out of date and wasn't set up with the new Dell or Macbook Pro in 2014. Goodsync is set up on the Dell in the Office and on the macbook Air. Consult the existing configs to set up elsewhere.
+	
+	Common Problems:
+		Network Syncing is really slow.
+			The initial sync was particularly bad. Note that this could be solved by manually doing it with the external the first time only.
+		Computers need to either be on or have WakeOnLAN. Some computers don't have WakeOnLan functionality.

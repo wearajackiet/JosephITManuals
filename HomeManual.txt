@@ -1,0 +1,53 @@
+Home Manual
+
+For Syncing see Synching Manual
+
+Computers
+	1. 2014 Dell - Upstairs Office
+	2. 2014 Macbook Pro - Downstairs Office
+	3. Mac Air - Downstairs Office
+
+	As of now, all computers have to be signed into with the Professor's Kerberos.
+	IT can get access to installing software by asking DSSIT to set up a Local Admin account on this computers.
+		Username: .\localadmin
+		Password: SomePassword
+	
+
+	Common Problems:
+		Make sure everything is plugged in correctly. 
+
+Software
+	Outlook
+		Outlook needs a mail profile to operate correctly. This can be found by going to
+			Control Panel > Mail > 
+			And changing the profile for "Outlook" if necessary. This website worked for setting up the outlook profile.
+		Common Problems:
+			If Outlook takes too long trying to load up and connect to the server upon starting, going into the settings and changing Outlook to contact on port HTTP makes it go faster.
+			If Outlook isn't working because of a new install, make sure you double checked that you manually created a profile that works with XedaOutlook for UCD uConnect.
+			If Outlook is performing very slowly, you will need to take the existing mail file and break it up by year into different archives. All mail in Outlook is stored in one gigantic file and if it gets too big the system slows down considerably.
+			
+Printers
+	1. Dell - Upstairs Office
+	2. HP Laserjet - Upstairs Office
+	3. Canon Photosmart - Upstairs Office
+	4. HP Laserjet - Downstairs Office
+	5. ?? The Other one in the Downstairs Office
+	
+	Printers are connected to the network and print via LAN. 
+	
+	Common Problems:
+		If a printer is jammed or out of paper, these are common problems fixed by running the cleaning facility or replacing the paper. 
+		If a printer is not receiving jobs, check to make sure that the computer is on the correct LAN. If a laptop is on VERIZON instead of PLUMFARM, the print job will not reach the printer.
+		
+
+Network, Wifi, and Ethernet
+	The current wireless networks name is Plumfarm. The routers can be found upstairs.
+	Desktop machines should be connected with ethernet.
+	Laptops should be connected via Wifi.
+	Common Problems:
+		If a computer is not receiving wireless, it may be because of the distance from the router upstairs.
+		If a computer is not on the wireless connection Plumfarm to the LAN, it may not work with printers.
+		
+Other/Miscellaneous
+	Telephone
+		If the professor gets too many voicemails they will start overlapping and playing at the same time.

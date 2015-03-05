@@ -1,0 +1,11 @@
+Printers
+
+HOME
+	Dell
+	HP
+	HP
+	HP
+	Canon Prixma Mark II
+
+OFFICE
+	Dell

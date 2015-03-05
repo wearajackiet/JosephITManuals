@@ -1,0 +1,59 @@
+3. Step-By-Step Guide to Google Groups. IT/Web Staff members will be able to create new Google Groups for future send-outs and set Dr. Joseph as the owner. Here is some key information. 
+	a. To create a Google Group:
+         		1. Go to https://groups.google.com/forum/
+         		2. Click Create Group
+         		3. Set the Group name, email address, description, Group type (email list)
+         		4. Set the Basic Permissions (Only Managers and All members can view, Only Owners can post, Only Invited Users can join the group)
+	b. To add members to the email list:
+         		1. Go to the Group> Select Manage tab on top right > 
+         		2. Under Members arrow, Select Direct Add Members on left menu
+         		3. Enter all the email addresses, send a welcome message (optional), and set Email subscription options to All Email.
+	c. To set Delivery Setting to All email (Keep everything else as default):
+         		1. Go to the Group> Select Manage tab on top right > 
+         		2. Under Members arrow, Select All Members on the left menu
+         		3. Checkmark ALL > Select Actions on menu > Change Delivery Setting > All email
+	d. To Set Post Replies Options (Keep everything else as default):
+        		1. Go to the Group> Select Manage tab on top right > 
+        		2. Under Settings arrow, Select Email Options
+        		3. Post replies > To the Owners of the Group
+	e. To Set Posting Permissions (keep everything else as default):
+        		1. Go to the Group> Select Manage tab on top right > 
+        		2. Under Permissions arrow, Select Posting Permissions
+        		3. Add References > Owners of the Group
+        		4. Assign Topic > Owners of the Group
+        		5. Attach Files > Owners of the Group
+        		6. Post Announcements > Owners of the Group
+        		7. Post as the Group > Owners of the Group
+        		8. Post Rich Text Format > None
+        		9. Reply to Author > All members of the Group 
+	f. To Set Moderation Permissions (keep everything else as default):
+        		1. Go to the Group> Select Manage tab on top right > 
+        		2. Under Permissions arrow, Select Moderation Permissions
+        		3. Add Members > Managers and Owners of the Group
+        		4. Approve Members > Managers and Owners of the Group
+        		5. Approve Messages > Managers and Owners of the Group
+        		6. Ban Users > Managers and Owners of the Group   
+	g. To Set Access Permissions (keep everything else as default):
+        		1. Go to the Group> Select Manage tab on top right > 
+        		2. Under Permissions arrow, Select Access Permissions
+        		3. Contact the owners of this Group > All members of the group
+        		4. View Members > Managers and Owners of the group
+        		5. View Member Email addresses > Managers and Owners of the Group
+        		6. View Topics > Managers and Owners of the Group
+	h. To Set Roles (Keep everything else as default):
+        		1. Go to the Group> Select Manage tab on top right > 
+        		2. Under Settings arrow, Select Roles > 
+        		3. Select Owner > Add sjoseph@ucdavis.edu as owner > Click Save
+        		4. Select Managers>Add IT/Web Staff, and Joseph Lab staff as Managers>Click Save
+	i. To Post/Send E-mail Out to the Group:
+        		1. Go to the Group> Click NEW TOPIC
+        		2. By > Either select your e-mail address or Post on behalf of the Group
+        		3. Choose a Subject
+        		4. Type of Post > Make an announcement
+        		5. Checkmark Post on Top
+		        6. Write Message, Attach a File, Add CC, Click POST at the top
+	j. Limits (Looking at External because not all users provide/have/use a Gmail account):
+				1. Total external recipients per group=Maximum number of external recipients for group messages = 5,000 per day.
+				         a. This means that the maximum is 5,000 recipients in 1 Google Group e-mail message per day (or its equivalent).
+				3. If at some point we have more than 5,000 active scholars, we will have to repeat the process (i.e create another Google Group, and so on)
+                         a. Dr. Joseph will have to log in to all the associated Google Groups to send the same announcement to everyone.
